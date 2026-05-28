@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
 </head>
 <body>
-    
+    <div>
+    <aside></aside>
+    <main>
+        <h1>Welcome to The Odin Project</h1>
+        <p>Sign up and start your programming journey.</p>
+        <form action="" method="post">
+            <!-- first name -->
+            <label for="first_name">
+                <span>First name</span>
+                <input type="text" name="first_name" id="first_name">
+            </label>
+
+            <!-- last name -->
+             <label for="last_name">
+                <span>last name</span>
+                <input type="text" name="last_name" id="last_name">
+             </label>
+
+             <!-- email -->
+              <label for="user_email">
+                <span>Email</span>
+                <input type="email" name="user_email" id="user_email">
+              </label>
+
+              <!-- phone number -->
+               <label for="user_phone">
+                <span>Phone number</span>
+                <input type="number" name="user_phone" id="user_phone">
+               </label>
+
+               <!-- password -->
+                <label for="user_password">
+                    <span>Password</span>
+                    <input type="password" name="user_password" id="user_password">
+                </label>
+
+                <label for="user_password">
+                    <span>Confirm password</span>
+                    <input type="password" name="user_password" id="user_password">
+                </label>
+
+
+                <!-- submit button -->
+                 <div>
+                    <button type="submit">Create account</button>
+                    <p>Already have an account? <a href="">log in</a></p>
+                 </div>
+        </form>
+    </main>
+    </div>
 </body>
 </html>
