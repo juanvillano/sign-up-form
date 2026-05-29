@@ -151,8 +151,8 @@ html {
 #main-form > label:has(input:user-valid:not(input[type='number']):not(input[type='password']))::after {
     content: url('./assets/circle-check.svg');
     position: absolute;
-    right: 1.5rem;
-    bottom: 1.7rem;
+    right: 6%;
+    top: 45%;
     width: 0.5rem;
     height: 0.5rem;
     filter: invert(74%) sepia(48%) saturate(400%) hue-rotate(70deg) brightness(105%) contrast(95%);
@@ -188,7 +188,7 @@ html {
 .side-wrapper {
     width: 40%;
     height: 100%;
-    background-image: url(./assets/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg);
+    background-image: url(./assets/rod-long-h14qZmHumqM-unsplash.jpg);
     background-size: cover;
 }
 
